@@ -1,0 +1,157 @@
+.attribution { font-size: 11px; text-align: center; padding: 2%; margin-top: 10px;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+  font-family: 'Be Vietnam', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+  color:  hsl(233, 12%, 13%);
+  font-weight: 700;
+}
+
+p{
+  color: hsl(227, 12%, 61%);
+  font-weight: 400;
+}
+.container-fluid{
+  padding: 10% 7%;
+}
+/* top section */
+#top-part .container-fluid{
+  padding: 0 7% 5%;
+}
+#red-section.container-fluid{
+  padding: 3% 7%;
+}
+.navbar-nav{
+  margin: auto 20%;
+}
+.top-first-section{
+  background: url(../images/bg-tablet-pattern.svg);
+  background-size: contain;
+  background-position:right;
+  background-repeat: no-repeat;
+}
+.top-headings{
+  line-height: 2;
+  padding: 5% 7% 5% 1%;
+}
+.btn-red{
+  background-color: hsl(12, 88%, 59%);
+  color: #fff;
+  font-weight: 400;
+  border-radius: 20px;
+}
+.btn-white{
+  background-color: #fff;
+  color:   hsl(12, 88%, 59%);
+  font-weight: 400;
+  border-radius: 20px;
+}
+.intro-img{
+  width: 95%;
+}
+
+/* what's different section */
+.diff-section{
+  position: relative;
+}
+.stick{
+  position: absolute;
+  z-index: -1;
+  left:-70%;
+}
+.whatdiff-heading{
+  display: inline-block;
+  margin: 3%;
+}
+/* testamonials */
+.test-section{
+  text-align: center;
+}
+.testamonial{
+  display: inline-table;
+  width: 30%;
+  height: 5%;
+  margin: 15% auto 5%;
+  padding: 5%;
+  background-color: hsl(0, 0%, 98%);
+}
+.avatar{
+  width: 30%;
+  position: relative;
+  bottom: 70px;
+}
+.prev{
+  position: absolute;
+  left: 100px;
+}
+.next{
+  position: absolute;
+  right: 100px;
+}
+.testoover{
+  border: solid 1px  hsl(0, 0%, 100%);
+  opacity: 0.8;
+}
+.centerd{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* }red section */
+.red-tab{
+    background-color:  hsl(12, 88%, 59%);
+}
+.red-heading{
+  color: #fff;
+}
+/* footer */
+
+.footer{
+  background-color: hsl(228, 39%, 23%);
+  color: #fff;
+}
+#logosvg{
+  fill:#fff;
+}
+.social{
+  padding: 5%;
+}
+.footer-list{
+  list-style: none;
+}
+.footer-list a{
+  text-decoration: none;
+  color: #fff;
+}
+.form-control{
+  border-radius: 20px;
+}
+/* jquery classes */
+.menu-navbar-collapse{
+  background-color: #fff;
+  padding: 5%;
+  text-align: center;
+  align-items: center;
+}
+.hide-item{
+  display: none;
+}
+/* media query */
+@media (max-width : 1220px){
+  .navbar-nav{
+    margin: auto;
+  }
+}
+@media (max-width:780px){
+  body{
+    text-align: center;
+  }
+  .stick{
+    width: 70%;
+    left: auto;
+    right:0;
+  }
+}
